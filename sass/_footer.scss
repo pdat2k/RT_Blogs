@@ -1,0 +1,12 @@
+.footer {
+  &-content {
+    padding: 36px 0 38px;
+    background-color: $black-color;
+  }
+  &-paragraph {
+    color: $white-color;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
