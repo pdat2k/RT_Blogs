@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RT Blogs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/app.js"></script>
+  </head>
+  <body>
+    <div id="wrapper" class="wrapper">
+      <header class="header">
+        <div class="header-container">
+          <div class="container">
+            <div class="header-nav">
+              <div class="header-nav-logo">
+                <div class="header-group-logo">
+                  <img
+                    src="./images/logo.png"
+                    alt="header-logo"
+                    class="header-logo"
+                  />
+                  <p class="header-logo-name">RT-Blogs</p>
+                </div>
+                <div class="header-nav-search">
+                  <input
+                    type="text"
+                    class="header-search"
+                    placeholder="Search blog"
+                  />
+                  <div class="header-search-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="header-nav-button">
+                <div class="header-nav-top">
+                  <a href="#" class="header-nav-link">Top</a>
+                  <p class="header-create-blog">Create Blog</p>
+                </div>
+                <div class="header-signin">
+                  <p class="header-signin-name">myname</p>
+                  <div class="header-signin-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-menu">
+          <div class="header-menu-nav">
+            <div class="header-menu-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </div>
+            <div class="header-menu-logoicon">
+              <div class="header-menu-logo">
+                <img
+                  src="./images/logo.png"
+                  alt="header-logo"
+                  class="header-menu-imageicon"
+                />
+              </div>
+              <p class="header-logo-namemenu">RT-Blogs</p>
+          </div>   
+          <div class="header-menu-search">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+            
+          </div>
+          </div>
+      </header>
+      <section class="section">
+        <div class="container">
+          <div class="blogpost-content">
+            <h1 class="blogpost-title">List Blog</h1>
+            <div class="blogpost-category">
+              <span class="blogpost-category-name">Category</span>
+              <div class="blogpost-category-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="blogpost-card-list">
+            <div class="blogpost-card">
+              <img
+                src="./images/Rectangle 86.png"
+                alt=""
+                class="blogpost-card-img"
+              />
+              <div class="blogpost-card-content">
+                <div class="blogpost-card-infomation">
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="{1.5}"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">Jimmy Nguyen</p>
+                  </div>
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">3 mins ago</p>
+                  </div>
+                </div>
+                <h4 class="blogpost-card-title">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="blogpost-card-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur ipsum linum amataki
+                  hulanjfh bfueodap fiefhief...
+                </p>
+                <div class="blogpost-card-btn">
+                  <a href="#" class="blogpost-card-link">Read more</a>
+                  <div class="blogpost-card-right">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 card-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blogpost-card">
+              <img src="./images/cat.png" alt="" class="blogpost-card-img" />
+              <div class="blogpost-card-content">
+                <div class="blogpost-card-infomation">
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="{1.5}"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">Jimmy Nguyen</p>
+                  </div>
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">3 mins ago</p>
+                  </div>
+                </div>
+                <h4 class="blogpost-card-title">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="blogpost-card-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur ipsum linum amataki
+                  hulanjfh bfueodap fiefhief...
+                </p>
+                <div class="blogpost-card-btn">
+                  <a href="#" class="blogpost-card-link">Read more</a>
+                  <div class="blogpost-card-right">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 card-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blogpost-card">
+              <img
+                src="./images/Rectangle 87.png"
+                alt=""
+                class="blogpost-card-img"
+              />
+              <div class="blogpost-card-content">
+                <div class="blogpost-card-infomation">
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="{1.5}"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">Jimmy Nguyen</p>
+                  </div>
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">3 mins ago</p>
+                  </div>
+                </div>
+                <h4 class="blogpost-card-title">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="blogpost-card-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur ipsum linum amataki
+                  hulanjfh bfueodap fiefhief...
+                </p>
+                <div class="blogpost-card-btn">
+                  <a href="#" class="blogpost-card-link">Read more</a>
+                  <div class="blogpost-card-right">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 card-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blogpost-card">
+              <img
+                src="./images/Rectangle 88.png"
+                alt=""
+                class="blogpost-card-img"
+              />
+              <div class="blogpost-card-content">
+                <div class="blogpost-card-infomation">
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="{1.5}"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">Jimmy Nguyen</p>
+                  </div>
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">3 mins ago</p>
+                  </div>
+                </div>
+                <h4 class="blogpost-card-title">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="blogpost-card-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur ipsum linum amataki
+                  hulanjfh bfueodap fiefhief...
+                </p>
+                <div class="blogpost-card-btn">
+                  <a href="#" class="blogpost-card-link">Read more</a>
+                  <div class="blogpost-card-right">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 card-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blogpost-card">
+              <img
+                src="./images/Rectangle 89.png"
+                alt=""
+                class="blogpost-card-img"
+              />
+              <div class="blogpost-card-content">
+                <div class="blogpost-card-infomation">
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="{1.5}"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">Jimmy Nguyen</p>
+                  </div>
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">3 mins ago</p>
+                  </div>
+                </div>
+                <h4 class="blogpost-card-title">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="blogpost-card-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur ipsum linum amataki
+                  hulanjfh bfueodap fiefhief...
+                </p>
+                <div class="blogpost-card-btn">
+                  <a href="#" class="blogpost-card-link">Read more</a>
+                  <div class="blogpost-card-right">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 card-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blogpost-card">
+              <img
+                src="./images/Rectangle 90.png"
+                alt=""
+                class="blogpost-card-img"
+              />
+              <div class="blogpost-card-content">
+                <div class="blogpost-card-infomation">
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="{1.5}"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">Jimmy Nguyen</p>
+                  </div>
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">3 mins ago</p>
+                  </div>
+                </div>
+                <h4 class="blogpost-card-title">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="blogpost-card-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur ipsum linum amataki
+                  hulanjfh bfueodap fiefhief...
+                </p>
+                <div class="blogpost-card-btn">
+                  <a href="#" class="blogpost-card-link">Read more</a>
+                  <div class="blogpost-card-right">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 card-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blogpost-card">
+              <img
+                src="./images/Rectangle 94.png"
+                alt=""
+                class="blogpost-card-img"
+              />
+              <div class="blogpost-card-content">
+                <div class="blogpost-card-infomation">
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="{1.5}"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">Jimmy Nguyen</p>
+                  </div>
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">3 mins ago</p>
+                  </div>
+                </div>
+                <h4 class="blogpost-card-title">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="blogpost-card-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur ipsum linum amataki
+                  hulanjfh bfueodap fiefhief...
+                </p>
+                <div class="blogpost-card-btn">
+                  <a href="#" class="blogpost-card-link">Read more</a>
+                  <div class="blogpost-card-right">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 card-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blogpost-card">
+              <img
+                src="./images/Rectangle 95.png"
+                alt=""
+                class="blogpost-card-img"
+              />
+              <div class="blogpost-card-content">
+                <div class="blogpost-card-infomation">
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="{1.5}"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">Jimmy Nguyen</p>
+                  </div>
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">3 mins ago</p>
+                  </div>
+                </div>
+                <h4 class="blogpost-card-title">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="blogpost-card-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur ipsum linum amataki
+                  hulanjfh bfueodap fiefhief...
+                </p>
+                <div class="blogpost-card-btn">
+                  <a href="#" class="blogpost-card-link">Read more</a>
+                  <div class="blogpost-card-right">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 card-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blogpost-card">
+              <img
+                src="./images/Rectangle 96.png"
+                alt=""
+                class="blogpost-card-img"
+              />
+              <div class="blogpost-card-content">
+                <div class="blogpost-card-infomation">
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="{1.5}"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">Jimmy Nguyen</p>
+                  </div>
+                  <div class="blogpost-card-group">
+                    <div class="blogpost-card-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    <p class="blogpost-card-author">3 mins ago</p>
+                  </div>
+                </div>
+                <h4 class="blogpost-card-title">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="blogpost-card-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur ipsum linum amataki
+                  hulanjfh bfueodap fiefhief...
+                </p>
+                <div class="blogpost-card-btn">
+                  <a href="#" class="blogpost-card-link">Read more</a>
+                  <div class="blogpost-card-right">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 card-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="session-pagination">
+            <ul class="session-pagination-list">
+              <li class="session-pagination-item">
+                <div class="session-pagination-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 19.5L8.25 12l7.5-7.5"
+                    />
+                  </svg>
+                </div>
+              </li>
+              <li class="session-pagination-item">
+                <div class="session-pagination-icon session-link">1</div>
+              </li>
+              <li class="session-pagination-item">
+                <div class="session-pagination-icon session-link">2</div>
+              </li>
+              <li class="session-pagination-item">
+                <div
+                  class="session-pagination-icon session-link session-active"
+                >
+                  3
+                </div>
+              </li>
+              <li class="session-pagination-item">
+                <div class="session-pagination-icon session-link">4</div>
+              </li>
+              <li class="session-pagination-item">
+                <div class="session-pagination-icon session-link">5</div>
+              </li>
+              <li class="session-pagination-item">
+                <div class="session-pagination-icon session-link">6</div>
+              </li>
+              <li class="session-pagination-item">
+                <div class="session-pagination-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                    />
+                  </svg>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-content">
+          <p class="footer-paragraph">Copyright 2022. Made by Regit JSC</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
