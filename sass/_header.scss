@@ -17,19 +17,14 @@
   }
   &-nav {
     padding: 30px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flexItem;
   }
   &-nav-logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flexItem;
     gap: 33px;
   }
   &-group-logo {
-    display: flex;
-    align-items: center;
+    @include flexAlign;
   }
 
   &-logo-name {
@@ -63,14 +58,11 @@
     cursor: pointer;
   }
   &-nav-button {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flexItem;
     width: 350px;
   }
   &-nav-top {
-    display: flex;
-    align-items: center;
+    @include flexItem;
     gap: 20px;
   }
   &-nav-link {
@@ -87,8 +79,7 @@
     font-size: 15px;
   }
   &-signin {
-    display: flex;
-    align-items: center;
+    @include flexItem;
     gap: 10px;
   }
   &-logo {
@@ -116,9 +107,7 @@
     box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.25);
     z-index: 10;
     &-nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      @include flexItem;
       padding: 9px 15px;
     }
     &-icon {
@@ -132,8 +121,7 @@
       color: #a7a7a7;
     }
     &-logoicon {
-      display: flex;
-      align-items: center;
+      @include flexItem;
     }
     &-imageicon {
       width: 47px;

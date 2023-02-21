@@ -75,8 +75,8 @@ button {
 .header-nav {
   padding: 30px 0;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 .header-nav-logo {
   display: flex;
@@ -126,6 +126,7 @@ button {
 .header-nav-top {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 20px;
 }
 .header-nav-link {
@@ -143,6 +144,7 @@ button {
 .header-signin {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
 }
 .header-logo {
@@ -186,6 +188,7 @@ button {
 .header-menu-logoicon {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .header-menu-imageicon {
   width: 47px;
@@ -223,8 +226,8 @@ button {
 .blogpost-content {
   margin: 50px 0 38px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 .blogpost-title {
   color: #000000;
