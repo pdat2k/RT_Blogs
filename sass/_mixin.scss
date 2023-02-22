@@ -12,3 +12,8 @@
   display: flex;
   align-items: center;
 }
+
+@mixin widthHeight($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
