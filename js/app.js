@@ -9,7 +9,7 @@ window.addEventListener("scroll", function () {
   const menu = wrapper.querySelector(".header-container");
   const screen = this.window.scrollY;
 
-  if (screen <= 519) {
+  if (screen <= 120) {
     menu.classList.remove("sticky");
     menu.classList.add("sticky-active");
   } else {
