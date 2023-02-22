@@ -1,16 +1,13 @@
 .blogpost {
   &-card-icon {
-    width: 20px;
-    height: 20px;
+    @include widthHeight(20px);
   }
   &-card-right {
-    width: 18px;
-    height: 8px;
+    @include widthHeight(18px, 8px);
   }
 
   &-category-icon {
-    width: 15px;
-    height: 15px;
+    @include widthHeight(15px);
   }
   &-content {
     margin: 50px 0 38px;
@@ -57,8 +54,7 @@
   }
 
   &-card-img {
-    height: 276px;
-    width: 100%;
+    @include widthHeight(100%, 276px);
     object-fit: cover;
   }
 
@@ -158,8 +154,7 @@
   }
 
   &-pagination-icon {
-    width: 20px;
-    height: 20px;
+    @include widthHeight(20px);
     color: $white-color;
   }
   &-link {

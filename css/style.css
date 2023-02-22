@@ -266,8 +266,8 @@ button {
   border-radius: 8px;
 }
 .blogpost-card-img {
-  height: 276px;
   width: 100%;
+  height: 276px;
   object-fit: cover;
 }
 .blogpost-card-content {

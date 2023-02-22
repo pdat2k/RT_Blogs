@@ -33,15 +33,13 @@
     font-size: 20px;
   }
   &-nav-search {
-    width: 374px;
-    height: 45px;
+    @include widthHeight(374px, 45px);
     position: relative;
   }
 
   &-search {
     border: 1px solid #d4d4d4;
-    width: 100%;
-    height: 100%;
+    @include widthHeight(100%, 100%);
     border-radius: 4px;
     padding: 11px 50px 13px 20px;
     font-size: 15px;
@@ -83,18 +81,15 @@
     gap: 10px;
   }
   &-logo {
-    width: 60px;
-    height: 60px;
+    @include widthHeight(60px);
   }
 
   &-search-icon {
-    width: 19px;
-    height: 19px;
+    @include widthHeight(19px);
   }
 
   &-signin-icon {
-    width: 30px;
-    height: 30px;
+    @include widthHeight(30px);
   }
 
   &-menu {
@@ -111,21 +106,18 @@
       padding: 9px 15px;
     }
     &-icon {
-      width: 26px;
-      height: 25px;
+      @include widthHeight(26px, 25px);
       color: #292d32;
     }
     &-search {
-      width: 19px;
-      height: 19px;
+      @include widthHeight(19px);
       color: #a7a7a7;
     }
     &-logoicon {
       @include flexItem;
     }
     &-imageicon {
-      width: 47px;
-      height: 45px;
+      @include widthHeight(47px, 45px);
     }
   }
   &-logo-namemenu {
