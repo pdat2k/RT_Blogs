@@ -6,12 +6,9 @@
     @include widthHeight(18px, 8px);
   }
 
-  &-category-icon {
-    @include widthHeight(15px);
-  }
   &-content {
-    margin: 50px 0 38px;
     @include flexItem;
+    margin: 50px 0 38px;
   }
   &-title {
     color: $black-color;
@@ -19,22 +16,22 @@
     font-size: 50px;
   }
 
-  &-category {
-    padding: 7px 60px 7px 15px;
-    border: 1px solid #dedede;
+  &-box {
+    @include widthHeight(144px, 40px);
     border-radius: 4px;
-    position: relative;
-    cursor: pointer;
+    border: 1px solid #dedede;
+    overflow: hidden;
   }
-
-  &-category-name {
+  &-category {
+    @include widthHeight(90%, 100%);
+    cursor: pointer;
+    padding: 0 15px;
+    border: none;
     font-weight: 500;
     color: $black-light-color;
     font-size: 15px;
   }
-  &-category-icon {
-    @include middleElement;
-  }
+
   &-card-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -63,7 +60,7 @@
     margin-bottom: 15px;
   }
   &-card-group {
-    @include flexAlign;
+    display: flex;
     gap: 6px;
   }
 
@@ -157,7 +154,10 @@
     @include flexItem(flex, center, center);
     padding: 15px;
     border-radius: 50%;
-    color: $black-color;
+    color: #211e3b;
+    font-family: $primary-font;
+    font-weight: 700;
+    font-size: 20px;
     &:hover {
       color: $red-color;
       background-color: #ffe4e4;
