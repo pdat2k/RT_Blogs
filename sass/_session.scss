@@ -33,11 +33,7 @@
     font-size: 15px;
   }
   &-category-icon {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    bottom: 50%;
-    transform: translate(-50%, -50%);
+    @include middleElement;
   }
   &-card-list {
     display: grid;

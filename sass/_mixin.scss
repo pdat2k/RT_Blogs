@@ -17,3 +17,11 @@
   width: $width;
   height: $height;
 }
+
+@mixin middleElement {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+}
