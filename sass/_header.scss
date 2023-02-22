@@ -13,8 +13,8 @@
     z-index: 10;
   }
   &-nav {
-    padding: 30px 0;
     @include flexItem;
+    padding: 30px 0;
   }
   &-nav-logo {
     @include flexItem;
@@ -35,8 +35,8 @@
   }
 
   &-search {
-    border: 1px solid #d4d4d4;
     @include widthHeight(100%, 100%);
+    border: 1px solid #d4d4d4;
     border-radius: 4px;
     padding: 11px 50px 13px 20px;
     font-size: 15px;
@@ -65,7 +65,7 @@
     font-weight: 500;
     font-size: 15px;
     padding: 4px 11px;
-    background-color: $red-color;
+    background-color: #770303;
     border-radius: 4px;
   }
   &-create-blog,
@@ -126,11 +126,7 @@
 
 .sticky {
   top: 0;
-  background-color: $white-color;
   &-active {
     top: 0;
-  }
-  .header-nav {
-    padding: 10px 0;
   }
 }
